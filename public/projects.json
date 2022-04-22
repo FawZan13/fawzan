@@ -1,0 +1,29 @@
+[
+    {
+        "key": "01",
+        "name": "Luxury Living",
+        "description": "Luxury Living is a real estate website",
+        "img": "https://i.ibb.co/xLhwhYs/luxury-living.png",
+        "live": "https://luxury-living-b604e.web.app/",
+        "frontend": "https://github.com/FawZan13/luxury-living",
+        "backend": "https://github.com/FawZan13/luxury-living-server"
+    },
+    {
+        "key": "02",
+        "name": "Penguin Watch",
+        "description": "Penguin watch is a watch selling website",
+        "img": "https://i.ibb.co/wQq8Rgr/penguin-watch.png",
+        "live": "https://penguin-watches.firebaseapp.com/",
+        "frontend": "https://github.com/FawZan13/penguin-watches-client",
+        "backend": "https://github.com/FawZan13/penguin-watches-server"
+    },
+    {
+        "key": "03",
+        "name": "Fawzan Travel",
+        "description": "Fawzan Travel is a travelling agency website.",
+        "img": "https://i.ibb.co/dm3pn5F/fawzan-trvael.png",
+        "live": "https://fawzan-travel.firebaseapp.com/",
+        "frontend": "https://github.com/FawZan13/fawzan-travel-client",
+        "backend": "https://github.com/FawZan13/fawzan-travel-server"
+    }
+]
