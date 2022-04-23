@@ -6,14 +6,13 @@ const Navigation = () => {
         <>
             <Navbar className="py-2" collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="#home">Fawzan</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse style={{ color: 'white' }} className="justify-content-end">
-                        <Nav.Link style={{ color: 'white' }} href="#deets">Home</Nav.Link>
-                        <Nav.Link style={{ color: 'white' }} href="#memes">About</Nav.Link>
-                        <Nav.Link style={{ color: 'white' }} href="#deets">Blogs</Nav.Link>
-                        <Nav.Link style={{ color: 'white' }} href="#memes">Projects</Nav.Link>
-                        <Nav.Link style={{ color: 'white' }} href="#memes">Contact</Nav.Link>
+                        <Nav.Link style={{ color: 'white' }} href="#home">Home</Nav.Link>
+                        <Nav.Link style={{ color: 'white' }} href="#about">About</Nav.Link>
+                        <Nav.Link style={{ color: 'white' }} href="#projects">Projects</Nav.Link>
+                        <Nav.Link style={{ color: 'white' }} href="#contact">Contact</Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar >

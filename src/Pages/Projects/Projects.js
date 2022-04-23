@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Spinner } from 'react-bootstrap';
 import Project from '../Project/Project';
+import './Projects.css'
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -10,10 +11,10 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div style={{ background: '#6c5ce7' }} className="py-5">
+        <div id="projects" style={{ background: '#6c5ce7' }} className="py-5">
             <Container className=" my-5">
 
-                <h1 style={{ fontSize: '64px' }} className="my-5 text-center">My <span style={{ color: 'red' }}>Projects</span></h1>
+                <h1 data-aos="zoom-out" style={{ fontSize: '64px' }} className="my-5 text-center">My <span style={{ color: 'red' }}>Projects</span></h1>
                 {projects.length === 0 ?
                     <Spinner animation="border" variant="warning" />
                     :

@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     const { name, img, description, live, frontend, backend } = project;
     return (
         <Col className=" my-3">
-            <Card bg="dark" border="" className="h-100 shadow-lg p-3" style={{ width: '23rem' }}>
+            <Card bg="dark" border="" className="h-100 shadow-lg p-3" style={{ width: '23rem' }} data-aos="zoom-in">
                 <Card.Img height="240" variant="top" src={img} />
                 <Card.Body>
                     <Card.Title className="text-white"><h4>{name}</h4></Card.Title>
