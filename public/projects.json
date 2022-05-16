@@ -13,7 +13,7 @@
         "name": "Penguin Watch",
         "description": "Penguin watch is a watch selling website",
         "img": "https://i.ibb.co/wQq8Rgr/penguin-watch.png",
-        "live": "https://penguin-watches.firebaseapp.com/",
+        "live": "https://luxury-living-b604e.web.app/",
         "frontend": "https://github.com/FawZan13/penguin-watches-client",
         "backend": "https://github.com/FawZan13/penguin-watches-server"
     },

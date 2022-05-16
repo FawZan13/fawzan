@@ -30,34 +30,20 @@ const Contact = () => {
                         <Container className="text-white mt-5 text-center">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                                    <label htmlFor="exampleFormControlInput1" class="form-label">Your Name</label>
                                     <input type="text" class="form-control" id="name" name="user_name" placeholder="Your Name" />
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <label htmlFor="exampleFormControlInput1" class="form-label">Email address</label>
                                     <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com" />
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                                    <label htmlFor="exampleFormControlTextarea1" class="form-label">Your Message</label>
                                     <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                                 <Button className="text-center" variant="outline-primary" type="Submit">Submit</Button>
                             </form>
                         </Container>
-                        {/* <Form className="text-white">
-                            <Form.Group className="mb-3">
-                                <Form.Label>Your Name</Form.Label>
-                                <Form.Control placeholder="First name" />
-                            </Form.Group>
-                            <Form.Group className="mb-3">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
-                            </Form.Group>
-                            <Form.Group className="mb-3">
-                                <Form.Label>Your Message</Form.Label>
-                                <Form.Control size="lg" type="text" placeholder="Large text" />
-                            </Form.Group>
-                        </Form> */}
                     </Col>
                 </Row>
             </Container>
